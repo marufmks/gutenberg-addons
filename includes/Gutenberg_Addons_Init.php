@@ -58,9 +58,9 @@ class Gutenberg_Addons_Init {
 
         wp_enqueue_script(
             'gutenberg-addons-admin',
-            plugin_dir_url(__DIR__) . 'build/admin.js',
+            plugin_dir_url(__DIR__) . 'build/admin/index.js',
             ['wp-element', 'wp-api-fetch'],
-            filemtime(plugin_dir_path(__DIR__) . 'build/admin.js'),
+            filemtime(plugin_dir_path(__DIR__) . 'build/admin/index.js'),
             true
         );
 

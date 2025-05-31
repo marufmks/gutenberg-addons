@@ -3,5 +3,13 @@
   "name": "gutenberg-addons/my-block-1",
   "title": "My Block 1",
   "category": "widgets",
-  "editorScript": "gutenberg-addons-my-block-1"
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    }
+  }
 }

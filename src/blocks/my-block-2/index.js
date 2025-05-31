@@ -1,8 +1,10 @@
 import { registerBlockType } from '@wordpress/blocks';
+import metadata from './block.json';
 import Edit from './edit';
 import Save from './save';
+import './style.css';
 
-registerBlockType('gutenberg-addons/my-block-2', {
-  edit: Edit,
-  save: Save,
+registerBlockType(metadata.name, {
+	edit: Edit,
+	save: Save,
 });
