@@ -1,0 +1,10 @@
+{
+  "name": "gutenberg-addons",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.17.0"
+  }
+}

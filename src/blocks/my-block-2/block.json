@@ -1,0 +1,7 @@
+{
+  "apiVersion": 2,
+  "name": "gutenberg-addons/my-block-2",
+  "title": "My Block 2",
+  "category": "widgets",
+  "editorScript": "gutenberg-addons-my-block-2"
+}

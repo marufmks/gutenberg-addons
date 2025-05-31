@@ -1,0 +1,7 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Gutenberg_Addons\\": "includes/"
+    }
+  }
+}
